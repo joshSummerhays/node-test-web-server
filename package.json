@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "run": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
   "dependencies": {
     "express": "^4.14.0",
     "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
